@@ -7,10 +7,14 @@ body {
     padding-bottom: 20px;
 }
 
-h1 {
+#ind h1 {
     font-size: 100px;
     font-family: "Trebuchet MS";
     color: #9a0851;
+}
+
+h1 {
+    color: #555;
 }
 
 h3 {
@@ -41,6 +45,8 @@ a {
 .section-colored {
     padding: 50px 0;
     margin-top:50px;
+    position:relative;
+    overflow: auto;
 }
 
 .section-colored {
@@ -110,6 +116,19 @@ a {
 /* 404 Page Styles */
 .error-404 {
     font-size: 8em;
+}
+
+#abt img {
+    width: 300px;
+    height: 500px;
+    margin-left: 50px;
+    float: left;
+}
+
+#abt h2 {
+    margin-left: 10px;
+    float:left;
+    font-family: "Trebuchet MS";
 }
 
 
